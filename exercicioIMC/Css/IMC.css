@@ -25,13 +25,21 @@ body{
     border-radius: 10px;
     box-shadow: 5px 5px 2px var(--primary-color-dark);
 }
-
-form input, form label, form button{
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
+div{
+    display: inline-block;
 }
-form button{
+div#res{
+    position: relative;
+    left: 30vh;
+}
+input{
+    width: 100%;
+}
+div#resultado{
+    display: block;
+}
+form #butao{
+    width: 100%;
     border: none;
     background-color: var(--primary-color);
     color: #fff;
