@@ -60,3 +60,7 @@ form input{
 form input:focus{
     outline: 2px var(--primary-color) solid;
 }
+#resultado{
+    background-color: rgba(255, 0, 0, 0.315);
+    margin-top: 20px;
+}
