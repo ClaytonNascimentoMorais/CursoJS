@@ -57,3 +57,10 @@ form input{
 form input:focus{
     outline: 2px var(--primary-color) solid;
 }
+.paragrafo-resultado, .bad{
+    background-color: rgb(109,255,182);
+    padding: 10px 20px;
+}
+.bad{
+    background-color: rgba(255, 0, 0, 0.404);
+}

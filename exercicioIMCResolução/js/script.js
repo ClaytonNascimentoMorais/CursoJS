@@ -14,7 +14,7 @@ form.addEventListener('submit', function(evento) {
     }
 
     if(!altura){
-        setResultado('Peso invalido',false);
+        setResultado('Altura invalida',false);
         return;
     }
 
@@ -51,7 +51,11 @@ function setResultado(msg, isValid){
     resultado.innerHTML = " ";
     const p = criaP();
 
-    if(isValid)
-    p.innerHTML = msg;
+    if(isValid){
+         p.classList.add('paragrafo-resultado')
+    } else{
+        p.classList.add('bad');
+    }
+         p.innerHTML = msg;
     resultado.appendChild(p);
 }
