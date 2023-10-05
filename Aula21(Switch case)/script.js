@@ -61,3 +61,4 @@ function SemanaDay(diaDaSemana){
 
 }
 console.log(dia);
+console.log(diaDaSemana)
