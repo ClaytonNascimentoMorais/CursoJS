@@ -1,13 +1,7 @@
-
-function random(a,b){
-    return Math.random()*(a-b) + b;
-}
-
-function numero(a){
-    return Number.isNaN(a)?false:true;
-
-}
+let random = (a,b)=> Math.random()*(a-b) + b;
+let numero = a => Number.isNaN(a)?'Nao e um numero':'É um numero';
 let rand = random(0,100);
+let valor = divisivel(Math.floor(rand));
 
 function divisivel(a){
     if(a%3==0 && a%5==0){
@@ -20,6 +14,6 @@ function divisivel(a){
     return a;
 }
 
-let valor = divisivel(rand);
+console.log(numero(Math.floor(rand)));
 console.log(valor);
 
