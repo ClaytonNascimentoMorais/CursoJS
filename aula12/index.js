@@ -5,7 +5,7 @@ let num1 = 9.54578;
 //console.log(Math.max(0,-1,5,2,20,-1));// Mostra qual o maior valor da sequencia.
 //console.log(Math.min(0,5,-1));// Mostra o menor valor da sequencia.
 //console.log(Math.random());// da um valor aleatorio entre 0 e 1
-//console.log(Math.random() * (20-10) + 10);// da um valor aleatorio entre 10 e vinte no caso
+//console.log(Math.random() * (20-10) + 10);// da um valor aleatorio entre 10 e 20 no caso
 //console.log(Math.round(Math.random()*(10-5)+5)) // essa função vai arredondar o valor aleatorio.
 //console.log(Math.PI);// valor de PI
 //console.log(Math.pow(2,3)); // potencia primeiro valor elevado ao segundo
