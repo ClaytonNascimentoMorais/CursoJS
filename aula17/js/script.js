@@ -1,4 +1,4 @@
-function meuEscopo(){
+ function meuEscopo(){
     const form = document.querySelector('.form');
     const resul = document.querySelector('.resultado')
     const pessoa = [];
@@ -16,10 +16,10 @@ function meuEscopo(){
             altura: altura.value
         });
         
-        console.log(pessoa);
+        
 
-        resul.innerHTML += `<p>${nome.value} ${sobrenome.value}` +
-        `${peso.value} ${altura.value} </p>`;
+        resul.innerHTML += `<p>${nome.value} ${sobrenome.value} ` +
+        `Peso: ${peso.value} Altura:  ${altura.value} </p>`;
     }
 
     form.addEventListener('submit',recebeEventoForm);
