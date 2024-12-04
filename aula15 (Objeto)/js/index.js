@@ -26,5 +26,6 @@ console.log(pessoa1.nome);*/
         console.log(`${this.nome} ${this.sobrenome} está falando oi...`)
     }
 }
+    pessoa1.fala();
 // declarando um obj com atributos nome,sobrenome e idade ja instanciados e criando uma função 'fala()' dentro desse obj, a palavra this nesse contexto serve para indicar que e o atributo nome desse obj no casso pessoa
 pessoa.fala();*/
