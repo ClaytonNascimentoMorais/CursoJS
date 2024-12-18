@@ -1,3 +1,12 @@
+/*
+Opreadores logicos
+&& -> and ou e
+|| -> OR -> OU
+! -> NOT -> NÃO
+*/
+// Operador ternario -> condição?expressão1:expressão2
+
+
 //?:
 const pontuação = 600;
 //Operação ternaria utilizada para simplificação de condicionais.
@@ -5,7 +14,7 @@ const pontuação = 600;
 
 
 //Valores padrao para caso o usuario nao escolha um valor ja ter o padrao a ser utilizado.
-const corUsuario = 'Azul';
+const corUsuario = 0; 
 const corPadrao = corUsuario || 'Preto';
 
 console.log(resul,corPadrao);

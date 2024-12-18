@@ -4,9 +4,9 @@ Operadores de comparação
 >= maior igual
 <= menor igual
 < menor que
-== igualdade
+== igualdade (Não recomendado)
 === igualdade (valor e tipo)
-!= diferente
+!= diferente (Não recomendado)
 !== diferente estrito (valor e tipo)
 */
 /* 
@@ -29,3 +29,4 @@ NaN
 
 //console.log(0 || false || null || 'Luiz' || true); // Neste caso retorna o primeiro valor verdaderio pois a função '||' precisa de apena um verdadeiro para retornar verdadeiro.
 
+console.log(10 > 5);
