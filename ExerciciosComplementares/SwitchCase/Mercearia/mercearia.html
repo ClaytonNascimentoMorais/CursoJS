@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercearia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Header>
+        <h1>Mercearia</h1>
+    </Header>
+    <main>
+            <div>
+               <table>
+                <tr>
+                    <td>Codigo</td>
+                    <td>Produto</td>
+                    <td>ValorUnitario</td>
+                </tr>
+                <tr>
+                    <td class="cod">100</td>
+                    <td>Detergente</td>
+                    <td>R$1,59</td>
+                </tr>
+                <tr>
+                    <td class="cod">101</td>
+                    <td>Esponja</td>
+                    <td>R$4,59</td>
+                </tr>
+                <tr>
+                    <td class="cod">102</td>
+                    <td>Lã de aço</td>
+                    <td>R$1,79</td>
+                </tr>
+               </table>
+                <p>Escolha uma opção</p>
+                <input type="number" id="valor">
+                <input type="button" value="Confirmar" onclick="Recepcao()">
+                <p id="resp" name="resp"></p>
+
+            </div>
+    </main>
+    <script src="mercearia.js"></script>
+</body>
+</html>
