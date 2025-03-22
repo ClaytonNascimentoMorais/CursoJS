@@ -4,6 +4,9 @@ for(let i =0; i< time.length; i++){
     console.log(`${i+1} ${time[i]}`);
 }*/
 
-for(let i =1; i <= 100; i+= 10){
-    console.log(`${i}° Olá`)
-}
+/*for(let i =0; i <= 10; i++){
+    const par = i %2 ===0 ? 'par': 'Impar';
+    console.log(par)
+}*/
+
+
